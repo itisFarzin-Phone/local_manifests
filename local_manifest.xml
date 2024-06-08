@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <!-- Remotes -->
- <remote name="itisFarzin" fetch="https://github.com/itisFarzin" />
+ <remote name="itisFarzin-Phone" fetch="https://github.com/itisFarzin-Phone" />
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
- <remote name="LMODroid" fetch="https://github.com/LMODroid" />
 
  <!-- Trees -->
- <project path="device/daria/zahedan" name="device_daria_zahedan" remote="itisFarzin" revision="lineage-20" />
- <project path="vendor/daria/zahedan" name="proprietary_vendor_daria_zahedan" remote="itisFarzin" revision="thirteen" />
- <project path="kernel/daria/mt6877" name="kernel_daria_mt6877" remote="itisFarzin" revision="zahedan" />
- <project path="device/mediatek/sepolicy_vndr" name="platform_device_mediatek_sepolicy_vndr" remote="LMODroid" revision="thirteen" />
- <project path="hardware/mediatek" name="android_hardware_mediatek" remote="LineageOS" revision="lineage-20" />
+ <project path="device/daria/zahedan" name="device_daria_zahedan" remote="itisFarzin-Phone" revision="lineage-21" />
+ <project path="vendor/daria/zahedan" name="proprietary_vendor_daria_zahedan" remote="itisFarzin-Phone" revision="lineage-21" />
+ <project path="kernel/daria/mt6877" name="kernel_daria_mt6877" remote="itisFarzin-Phone" revision="Rana-1.0.0-A14" />
+ <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="itisFarzin-Phone" revision="lineage-21" />
+ <project path="hardware/mediatek" name="android_hardware_mediatek" remote="LineageOS" revision="lineage-21" />
 </manifest>
 
